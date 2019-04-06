@@ -4,8 +4,8 @@ This script allows for easy setup of linux masternode or CLI wallet.
 
 Just run script for 16.04 or 18.04:
 ```bash
-bash <(curl https://raw.githubusercontent.com/WG91/WorxInstaller/master/worx_installer_U16)
-bash <(curl https://raw.githubusercontent.com/WG91/WorxInstaller/master/worx_installer_U18)
+bash <(curl https://raw.githubusercontent.com/worxcoin/WorxInstaller/master/worx_installer_U16)
+bash <(curl https://raw.githubusercontent.com/worxcoin/WorxInstaller/master/worx_installer_U18)
 ```
 as root on your linux VPS, or computer if you just want CLI wallet. 
 
@@ -16,8 +16,8 @@ Shell script to install a [Worx Masternode](https://worx.world/) on a Linux serv
 ## Installation
 Just run script for 16.04 OR 18.04:
 ```
-bash <(curl https://raw.githubusercontent.com/WG91/WorxInstaller/master/worx_installer_U16)
-bash <(curl https://raw.githubusercontent.com/WG91/WorxInstaller/master/worx_installer_U18)
+bash <(curl https://raw.githubusercontent.com/worxcoin/WorxInstaller/master/worx_installer_U16)
+bash <(curl https://raw.githubusercontent.com/worxcoin/WorxInstaller/master/worx_installer_U18)
 ```
 ***
 
