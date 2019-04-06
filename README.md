@@ -2,9 +2,10 @@
 
 This script allows for easy setup of linux masternode or CLI wallet. 
 
-Just run with:
+Just run script for 16.04 or 18.04:
 ```bash
-bash <(curl https://raw.githubusercontent.com/worxcoin/WorxInstaller/master/worx_installer)
+bash <(curl https://raw.githubusercontent.com/worxcoin/WorxInstaller/master/worx_installer_U16)
+bash <(curl https://raw.githubusercontent.com/worxcoin/WorxInstaller/master/worx_installer_U18)
 ```
 as root on your linux VPS, or computer if you just want CLI wallet. 
 
@@ -13,8 +14,10 @@ Shell script to install a [Worx Masternode](https://worx.world/) on a Linux serv
 ***
 
 ## Installation
+Just run script for 16.04 OR 18.04:
 ```
-bash <(curl https://raw.githubusercontent.com/worxcoin/WorxInstaller/master/worx_installer)
+bash <(curl https://raw.githubusercontent.com/worxcoin/WorxInstaller/master/worx_installer_U16)
+bash <(curl https://raw.githubusercontent.com/worxcoin/WorxInstaller/master/worx_installer_U18)
 ```
 ***
 
@@ -23,7 +26,7 @@ bash <(curl https://raw.githubusercontent.com/worxcoin/WorxInstaller/master/worx
 After the MN is up and running, you need to configure the desktop wallet accordingly. Here are the steps:  
 1. Open the Worx Desktop Wallet.  
 2. Go to RECEIVE and create a New Address: **MN1**  
-3. Send **1000** WORX to **MN1**. You need to send all 1000 coins in one single transaction.
+3. Send **5000** WORX to **MN1**. You need to send all 5000 coins in one single transaction.
 4. Wait for 15 confirmations.  
 5. Go to **Help -> "Debug Window - Console"**  
 6. Type the following command: **masternode outputs**  
