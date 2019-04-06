@@ -7,10 +7,10 @@ CFFULLPATH=$(eval echo $CONFIGFOLDER/$CONFIG_FILE)
 COIN_DAEMON='worxd'
 COIN_CLI='worx-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_GIT='https://github.com/WG91/worx-protocol70719.git'
+COIN_GIT='https://github.com/worxcoin/worx.git'
 COIN_BACKUP='~/WorxBackup'
 COIN_TGZ=''
-COIN_BOOTSTRAP_URL='https://github.com/WG91/worx-protocol70719/releases/download/70719/bootstrap.tar.gz'
+COIN_BOOTSTRAP_URL='https://github.com/worxcoin/worx/releases/download/1.3.0.2-70719/bootstrap.tar.gz'
 COIN_BOOTSTRAP_HASH=''
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='worx'
@@ -158,7 +158,7 @@ echo -e "     \/__/         \/__/         \/__/         |/__/     ";
 echo -e "${FgLtBlue}"
 echo -e "Work.. Please be patient....${Off}"
 cd /tmp
-wget https://github.com/WG91/worx-protocol70719/releases/download/70719/worx-70719-ubuntu18.zip > /dev/null 2>&1
+wget https://github.com/worxcoin/worx/releases/download/1.3.0.2-70719/worx-70719-ubuntu18.zip > /dev/null 2>&1
 unzip worx-70719-ubuntu18.zip > /dev/null 2>&1
 chmod 777 worxd worx-tx worx-cli > /dev/null 2>&1
 mv worx* /usr/local/bin/ > /dev/null 2>&1
@@ -754,7 +754,7 @@ read -rp "Press any key to continue" pause
 mainmenu2
 
 
-# bash <(curl https://raw.githubusercontent.com/WG91/WorxInstaller/master/worx_installer_U18)
+# bash <(curl https://raw.githubusercontent.com/worxcoin/WorxInstaller/master/worx_installer_U18)
 
 
 
