@@ -163,7 +163,7 @@ unzip worx-1.5.1.1-ubuntu16-VPS.zip > /dev/null 2>&1
 chmod 777 worxd worx-cli worx-tx > /dev/null 2>&1
 mv worx* /usr/local/bin/ > /dev/null 2>&1
 cd ..
-rm -rf worx-1.5.1.1-ubuntu16-VPS.zip
+rm -rf /usr/local/bin/worx-1.5.0.1-ubuntu16.zip
 echo -e "Done."
 }
 
