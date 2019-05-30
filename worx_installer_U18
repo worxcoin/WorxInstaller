@@ -10,7 +10,7 @@ COIN_PATH='/usr/local/bin/'
 COIN_GIT='https://github.com/worxcoin/worx.git'
 COIN_BACKUP='~/WorxBackup'
 COIN_TGZ=''
-COIN_BOOTSTRAP_URL='https://github.com/worxcoin/worx/releases/download/1.5.0.1/bootstrap.tar.gz'
+COIN_BOOTSTRAP_URL='https://github.com/worxcoin/worx/releases/download/1.5.1.1/bootstrap.tar.gz'
 COIN_BOOTSTRAP_HASH=''
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='worx'
@@ -158,12 +158,12 @@ echo -e "     \/__/         \/__/         \/__/         |/__/     ";
 echo -e "${FgLtBlue}"
 echo -e "Work.. Please be patient....${Off}"
 cd /tmp
-wget https://github.com/worxcoin/worx/releases/download/1.5.0.1/worx-1.5.0.1-ubuntu18.zip > /dev/null 2>&1
-unzip worx-1.5.0.1-ubuntu18.zip > /dev/null 2>&1
+wget https://github.com/worxcoin/worx/releases/download/1.5.1.1/worx-1.5.1.1-ubuntu18.zip > /dev/null 2>&1
+unzip worx-1.5.1.1-ubuntu18.zip > /dev/null 2>&1
 chmod 777 worxd worx-tx worx-cli > /dev/null 2>&1
 mv worx* /usr/local/bin/ > /dev/null 2>&1
 cd ..
-rm -rf worx-1.5.0.1-ubuntu18.zip
+rm -rf worx-1.5.1.1-ubuntu18.zip
 echo -e "Done."
 }
 
