@@ -31,7 +31,7 @@ rm -rf "/root/.worx/peers.dat"
 
 echo "Installing bootstrap file..."
 
-cd /root/.worx && wget https://github.com/worxcoin/worx/releases/download/1.5.0.1/bootstrap.tar.gz && tar -xvzf bootstrap.tar.gz && rm bootstrap.tar.gz
+cd /root/.worx && wget https://github.com/worxcoin/worx/releases/download/1.5.1.1/bootstrap.tar.gz && tar -xvzf bootstrap.tar.gz && rm bootstrap.tar.gz
 
 if [ -e /etc/systemd/system/worx.service ]; then
   sudo systemctl start worx.service
