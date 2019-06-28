@@ -10,7 +10,7 @@ COIN_PATH='/usr/local/bin/'
 COIN_GIT='https://github.com/worxcoin/worx.git'
 COIN_BACKUP='~/WorxBackup'
 COIN_TGZ=''
-COIN_BOOTSTRAP_URL='https://github.com/worxcoin/worx/releases/download/1.5.1.1/bootstrap.tar.gz'
+COIN_BOOTSTRAP_URL='https://github.com/worxcoin/worx/releases/download/1.5.1.1/bootstrap.zip'
 COIN_BOOTSTRAP_HASH=''
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='worx'
@@ -573,9 +573,9 @@ function bootstrap() {
   cd $CONFIGFOLDER
   rm -rf blocks chainstate database banlist.dat peers.dat 2>/dev/null
   echo -e "${CYAN}Downloading Bootstrap...${NC}"
-  wget -q $COIN_BOOTSTRAP_URL -O bootstrap.tar.gz
-  tar -zxvf bootstrap.tar.gz >/dev/null 2>&1
-  rm bootstrap.tar.gz
+  wget -q $COIN_BOOTSTRAP_URL -O bootstrap.zip
+  unzip bootstrap.zip >/dev/null 2>&1
+  rm bootstrap.zip
   cd ~
 }
 
